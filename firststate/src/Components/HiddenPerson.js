@@ -5,12 +5,12 @@ const HiddenPerson = ({ person }) => {
   return (
     <div className="container">
       <div
-        class="card w-75"
+        className="card w-75"
         style={{ width: "90vw", marginTop: 50, marginBottom: 50 }}
       >
-        <div class="card-body">
-          <h5 class="card-title">{fullName}</h5>
-          <p class="card-text">{profession}</p>
+        <div className="card-body">
+          <h5 className="card-title">{fullName}</h5>
+          <p className="card-text">{profession}</p>
         </div>
       </div>
     </div>

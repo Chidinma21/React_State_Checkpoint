@@ -13,23 +13,26 @@ const Person = ({ person }) => {
 
   return (
     <div className="container">
-      <div class="card mb-5" style={{ width: "90vw", marginTop: "50px" }}>
-        <div class="row g-0">
+      <div
+        className="card mb-5"
+        style={{ maxWidth: "90vw", marginTop: "50px" }}
+      >
+        <div className="row g-0">
           <div class="col-md-4">
             <img
               src={imageSrc}
-              class="img-fluid rounded-start"
+              className="img-fluid rounded-start"
               alt="a medic"
               style={{ height: "100%" }}
             />
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h4 class="card-title">{fullName}</h4>
+          <div className="col-md-8">
+            <div className="card-body">
+              <h4 className="card-title">{fullName}</h4>
               <h5>{profession}</h5>
-              <p class="card-text">{bio}</p>
-              <p class="card-text">
-                <small class="text-muted">
+              <p className="card-text">{bio}</p>
+              <p className="card-text">
+                <small className="text-muted">
                   Last mounted {count} seconds ago
                 </small>
               </p>
